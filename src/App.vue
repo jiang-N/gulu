@@ -1,15 +1,15 @@
 <template>
-  <div>hi</div>
-  <Jiang/>
+  <div>导航栏 |
+    <router-link to="/">Jiang</router-link>
+    |
+    <router-link to="/xxx">Jiang2</router-link>
+  </div>
+  <hr>
+  <router-view/>
 </template>
 
 <script>
-import Jiang from './components/Jiang.vue'
-
 export default {
   name: 'App',
-  components: {
-    Jiang
-  }
 }
 </script>
