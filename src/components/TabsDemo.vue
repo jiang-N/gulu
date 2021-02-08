@@ -8,12 +8,12 @@
 </template>
 
 <script lang="ts">
-import Tab from '../lib/Tab.vue';
 import Tabs from '../lib/Tabs.vue';
+import Tab from '../lib/Tab.vue';
 
 export default {
   name: 'SwitchDemo',
-  components: {Tab, Tabs}
+  components: {Tabs, Tab}
 };
 </script>
 
