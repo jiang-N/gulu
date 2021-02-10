@@ -1,12 +1,14 @@
 <template>
-  <TopNav/>
-  <div class="banner">
-    <h1>咕噜UI</h1>
-    <h2>一个厉害的 UI 框架</h2>
-    <p class="actions">
-      <a href="https://github.com">GitHub</a>
-      <router-link to="/doc">开始</router-link>
-    </p>
+  <div class="topNavAndBanner">
+    <TopNav/>
+    <div class="banner">
+      <h1>咕噜UI</h1>
+      <h2>一个厉害的 UI 框架</h2>
+      <p class="actions">
+        <a href="https://github.com">GitHub</a>
+        <router-link to="/doc">开始</router-link>
+      </p>
+    </div>
   </div>
 </template>
 
@@ -20,13 +22,16 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.topNavAndBanner {
+  background: linear-gradient(145deg, rgba(227, 255, 253, 1) 0%, rgba(183, 233, 230, 1) 100%);
+}
+
 .banner {
   padding: 100px 0;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background: lightgreen;
 
   > .actions {
     padding: 8px 0;
