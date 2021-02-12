@@ -16,8 +16,7 @@ export default {
   name: 'SwitchDemo',
   components: {Demo},
   setup() {
-    const bool = ref(false)
-    return {bool, Switch1Demo, Switch2Demo}
+    return {Switch1Demo, Switch2Demo}
   }
 }
 </script>
