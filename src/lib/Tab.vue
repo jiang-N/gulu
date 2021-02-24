@@ -4,12 +4,8 @@
   </div>
 </template>
 
-<script>
+<script lang="ts">
 export default {
-  name: 'Tab'
+  name: 'GuluTab'
 }
 </script>
-
-<style scoped>
-
-</style>
