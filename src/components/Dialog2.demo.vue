@@ -8,7 +8,7 @@
 </template>
 
 <script lang="ts">
-import Button from '../lib/Button.vue';
+import {Dialog, Button} from '../lib/index';
 import {
   h
 } from 'vue';
